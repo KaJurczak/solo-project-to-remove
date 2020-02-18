@@ -1,0 +1,15 @@
+a {
+  color: $color-blue;
+  text-decoration: none;
+
+  &:hover {
+    font-weight: $font-bold;
+    cursor: pointer;
+    transition: $transition;
+    text-decoration: none;
+  }
+}
+
+i {
+  padding-right: 10px;
+}
